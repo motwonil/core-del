@@ -1,0 +1,10 @@
+module mo20.core;
+
+import std;
+
+using namespace std::string_view_literals;
+using namespace mo20;
+
+auto core::hello_world( ) noexcept -> std::string_view {
+  return "hello, standard modules world"sv;
+}
